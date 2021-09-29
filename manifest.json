@@ -12,9 +12,6 @@
                 "joiner.js"
             ]
         }
-    ],
-    "permissions": [
-        "*://meet.google.com/*"
     ]
     
 }
