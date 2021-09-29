@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "Google meet joiner",
+    "version": "0.1",
+    "description": "Mutes audio and video, joins the google meet.",
+    "content_scripts": [
+        {
+            "matches": [
+                "*://meet.google.com/*"
+            ],
+            "js": [
+                "joiner.js"
+            ]
+        }
+    ],
+    "permissions": [
+        "*://meet.google.com/*"
+    ]
+    
+}
