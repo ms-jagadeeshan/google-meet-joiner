@@ -13,6 +13,10 @@ const getButtonList = () => {
     for (let i = 0; i < node_list.length; i = i + 1) {
         if (node_list[i].getAttribute('role') === 'button') { button_list.push(node_list[i]); }
     }
+    const b_list = document.getElementsByTagName('button');
+    for (let i = 0; i < b_list.length; i = i + 1) {
+        button_list.push(b_list[i]);
+    }
     return button_list;
 }
 
